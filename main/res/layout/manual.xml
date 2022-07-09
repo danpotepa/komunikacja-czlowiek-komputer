@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:background="@drawable/danielok">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/danielok">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -33,11 +33,11 @@
         <TextView
             android:layout_width="415dp"
             android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="140dp"
             android:fontFamily="@font/roboto_bold"
             android:gravity="left"
             android:text="Objętość wody w ml:"
-            android:layout_marginLeft="30dp"
             android:textColor="#000"
             android:textSize="25sp" />
 
@@ -78,6 +78,7 @@
             android:background="@drawable/btcclick"/>
 
         <Button
+            android:id="@+id/wroc"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
@@ -91,5 +92,4 @@
 
 
 </RelativeLayout>
-
 
